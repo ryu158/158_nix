@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: mqtts-szt7u
+created: 2026-06-05T10:32:26+09:00

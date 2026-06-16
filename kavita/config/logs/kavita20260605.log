@@ -1,0 +1,294 @@
+[Kavita] [2026-06-05 17:03:51.194 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-05 17:03:51.297 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-05 17:03:51.596 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-05 17:03:51.607 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-05 17:03:51.616 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-05 17:03:51.719 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-05 17:03:51.892 +09:00  14] [Information] API.Program Running Migrations
+[Kavita] [2026-06-05 17:03:51.999 +09:00  14] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:52.001 +09:00  14] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:52.007 +09:00  14] [Fatal] API.Program Running MigrateSmartFilterEncoding migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:52.091 +09:00  14] [Fatal] API.Program Running MigrateSmartFilterEncoding migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:52.097 +09:00  14] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:52.124 +09:00  14] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:52.127 +09:00  14] [Fatal] API.Program Running MigrateEmailTemplates migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:52.816 +09:00  10] [Information] API.Program /home/opc/nix/kavita/config/templates/EmailChange.html downloaded and written successfully
+[Kavita] [2026-06-05 17:03:53.038 +09:00  10] [Information] API.Program /home/opc/nix/kavita/config/templates/EmailConfirm.html downloaded and written successfully
+[Kavita] [2026-06-05 17:03:53.292 +09:00  10] [Information] API.Program /home/opc/nix/kavita/config/templates/EmailPasswordReset.html downloaded and written successfully
+[Kavita] [2026-06-05 17:03:53.587 +09:00  10] [Information] API.Program /home/opc/nix/kavita/config/templates/SendToDevice.html downloaded and written successfully
+[Kavita] [2026-06-05 17:03:53.818 +09:00  10] [Information] API.Program /home/opc/nix/kavita/config/templates/EmailTest.html downloaded and written successfully
+[Kavita] [2026-06-05 17:03:53.819 +09:00  10] [Fatal] API.Program Running MigrateEmailTemplates migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:53.829 +09:00  10] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:53.897 +09:00  10] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:53.907 +09:00  10] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:53.915 +09:00  10] [Fatal] API.Program Running MigrateClearNightlyExternalSeriesRecords migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.002 +09:00  10] [Fatal] API.Program Running MigrateClearNightlyExternalSeriesRecords migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.007 +09:00  10] [Fatal] API.Program Running MigrateVolumeLookupName migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.011 +09:00  10] [Fatal] API.Program Running MigrateVolumeLookupName migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.016 +09:00  10] [Fatal] API.Program Running MigrateChapterNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.091 +09:00  10] [Fatal] API.Program Running MigrateChapterNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.101 +09:00  10] [Fatal] API.Program Running MigrateProgressExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.224 +09:00  10] [Fatal] API.Program Running MigrateProgressExport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.293 +09:00  14] [Fatal] API.Program Running ManualMigrateMixedSpecials migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.322 +09:00  14] [Fatal] API.Program Migrating 0 progress events to new Volume structure for Specials - This may take over 10 minutes depending on size of DB. Please wait
+[Kavita] [2026-06-05 17:03:54.332 +09:00  14] [Fatal] API.Program Running ManualMigrateMixedSpecials migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.343 +09:00  14] [Fatal] API.Program Running MigrateLooseLeafChapters migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.404 +09:00  14] [Fatal] API.Program Migrating 0 progress events to new Volume structure for Loose leafs - This may take over 10 minutes depending on size of DB. Please wait
+[Kavita] [2026-06-05 17:03:54.409 +09:00  14] [Fatal] API.Program Running MigrateLooseLeafChapters migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.415 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.504 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 volumes that only have specials in them
+[Kavita] [2026-06-05 17:03:54.589 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 volumes that only have loose leaf chapters in them
+[Kavita] [2026-06-05 17:03:54.589 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Updating all MangaFiles
+[Kavita] [2026-06-05 17:03:54.632 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Updating 0 loose leaf chapters
+[Kavita] [2026-06-05 17:03:54.636 +09:00  14] [Fatal] API.Program Running MigrateChapterFields migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.691 +09:00  14] [Fatal] API.Program Running MigrateChapterRange migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.715 +09:00  14] [Fatal] API.Program Running MigrateChapterRange migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.720 +09:00  14] [Fatal] API.Program Running MigrateMangaFilePath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.724 +09:00  14] [Fatal] API.Program Running MigrateMangaFilePath migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.793 +09:00  14] [Fatal] API.Program Running MigrateLowestSeriesFolderPath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.822 +09:00  14] [Fatal] API.Program Running MigrateLowestSeriesFolderPath migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.828 +09:00  14] [Fatal] API.Program Running ManualMigrateThemeDescription migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.843 +09:00  14] [Fatal] API.Program Running ManualMigrateThemeDescription migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.898 +09:00  14] [Fatal] API.Program Running MigrateInitialInstallData migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.914 +09:00  14] [Fatal] API.Program Running MigrateInitialInstallData migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:54.920 +09:00  14] [Fatal] API.Program Running MigrateSeriesLowestFolderPath migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:54.998 +09:00  14] [Fatal] API.Program Running MigrateSeriesLowestFolderPath migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:55.003 +09:00  14] [Fatal] API.Program Running MigrateLowestSeriesFolderPath2 migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:55.011 +09:00  14] [Fatal] API.Program Running MigrateLowestSeriesFolderPath2 migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:55.020 +09:00  14] [Fatal] API.Program Running MigrateDuplicateDarkTheme migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:55.034 +09:00  14] [Fatal] API.Program Running MigrateDuplicateDarkTheme migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:55.090 +09:00  14] [Fatal] API.Program Running ManualMigrateUnscrobbleBookLibraries migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:03:55.107 +09:00  14] [Fatal] API.Program Running ManualMigrateUnscrobbleBookLibraries migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:03:55.115 +09:00  14] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-05 17:03:55.124 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-05 17:03:57.499 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-05 17:03:57.709 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-05 17:03:57.711 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-05 17:03:57.803 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-05 17:03:57.804 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-05 17:03:57.804 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-05 17:03:58.401 +09:00  14] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-05 17:04:24.290 +09:00  32] [Information] Microsoft.Hosting.Lifetime Application is shutting down...
+[Kavita] [2026-06-05 17:04:43.689 +09:00  6] [Information] API.Program Running Manual Migrations
+[Kavita] [2026-06-05 17:04:44.338 +09:00  6] [Fatal] API.Program Running MigrateWantToReadExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:44.398 +09:00  6] [Fatal] API.Program Running ManualMigrateSwitchToWal migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:44.811 +09:00  6] [Fatal] API.Program Running ManualMigrateSwitchToWal migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:44.817 +09:00  6] [Fatal] API.Program Running ManualMigrateEncodeSettings migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:45.024 +09:00  6] [Fatal] API.Program Running ManualMigrateEncodeSettings migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:45.025 +09:00  6] [Information] API.Program Running Manual Migrations - complete
+[Kavita] [2026-06-05 17:04:46.294 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-05 17:04:46.308 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-05 17:04:46.605 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-05 17:04:46.617 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-05 17:04:46.624 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-05 17:04:46.724 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-05 17:04:46.797 +09:00  12] [Information] API.Program Running Migrations
+[Kavita] [2026-06-05 17:04:46.898 +09:00  12] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:46.900 +09:00  12] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:46.910 +09:00  12] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:46.937 +09:00  12] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:47.002 +09:00  12] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:04:47.016 +09:00  12] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:47.024 +09:00  12] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:04:47.307 +09:00  12] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-05 17:04:47.316 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-05 17:04:48.224 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-05 17:04:48.421 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-05 17:04:48.424 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-05 17:04:48.499 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-05 17:04:48.500 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-05 17:04:48.500 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-05 17:04:49.290 +09:00  6] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-05 17:06:14.633 +09:00  30] [Information] Microsoft.Hosting.Lifetime Application is shutting down...
+[Kavita] [2026-06-05 17:08:11.223 +09:00  4] [Information] API.Program Running Manual Migrations
+[Kavita] [2026-06-05 17:08:12.029 +09:00  4] [Fatal] API.Program Running MigrateWantToReadExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:08:12.106 +09:00  4] [Information] API.Program Running Manual Migrations - complete
+[Kavita] [2026-06-05 17:08:13.698 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-05 17:08:13.712 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-05 17:08:14.025 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-05 17:08:14.037 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-05 17:08:14.045 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-05 17:08:14.131 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-05 17:08:14.213 +09:00  6] [Information] API.Program Running Migrations
+[Kavita] [2026-06-05 17:08:14.325 +09:00  6] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:08:14.325 +09:00  6] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:08:14.335 +09:00  6] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:08:14.411 +09:00  6] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:08:14.425 +09:00  6] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:08:14.436 +09:00  6] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:08:14.495 +09:00  6] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:08:14.839 +09:00  6] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-05 17:08:14.893 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-05 17:08:15.740 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-05 17:08:16.019 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-05 17:08:16.022 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-05 17:08:16.108 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-05 17:08:16.108 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-05 17:08:16.108 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-05 17:08:17.034 +09:00  4] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-05 17:08:46.367 +09:00  30] [Information] Microsoft.Hosting.Lifetime Application is shutting down...
+[Kavita] [2026-06-05 17:12:51.420 +09:00  6] [Information] API.Program Running Manual Migrations
+[Kavita] [2026-06-05 17:12:52.236 +09:00  6] [Fatal] API.Program Running MigrateWantToReadExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:12:52.321 +09:00  6] [Information] API.Program Running Manual Migrations - complete
+[Kavita] [2026-06-05 17:12:54.002 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-05 17:12:54.028 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-05 17:12:54.301 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-05 17:12:54.312 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-05 17:12:54.319 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-05 17:12:54.414 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-05 17:12:54.498 +09:00  4] [Information] API.Program Running Migrations
+[Kavita] [2026-06-05 17:12:54.602 +09:00  4] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:12:54.603 +09:00  4] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:12:54.613 +09:00  4] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:12:54.696 +09:00  4] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:12:54.710 +09:00  4] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:12:54.721 +09:00  4] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:12:54.727 +09:00  4] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:12:55.117 +09:00  4] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-05 17:12:55.125 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-05 17:12:55.927 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-05 17:12:56.214 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-05 17:12:56.216 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-05 17:12:56.306 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-05 17:12:56.306 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-05 17:12:56.306 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-05 17:12:57.327 +09:00  6] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-05 17:15:00.503 +09:00  31] [Error] API.Middleware.ExceptionMiddleware There was an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at API.Extensions.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions options) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Extensions\IdentityServiceExtensions.cs:line 54
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at API.Middleware.SecurityEventMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\SecurityMiddleware.cs:line 25
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\ExceptionMiddleware.cs:line 18
+[Kavita] [2026-06-05 17:15:32.402 +09:00  33] [Error] API.Middleware.ExceptionMiddleware There was an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at API.Extensions.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions options) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Extensions\IdentityServiceExtensions.cs:line 54
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at API.Middleware.SecurityEventMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\SecurityMiddleware.cs:line 25
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\ExceptionMiddleware.cs:line 18
+[Kavita] [2026-06-05 17:15:32.506 +09:00  32] [Error] API.Middleware.ExceptionMiddleware There was an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at API.Extensions.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions options) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Extensions\IdentityServiceExtensions.cs:line 54
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at API.Middleware.SecurityEventMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\SecurityMiddleware.cs:line 25
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\ExceptionMiddleware.cs:line 18
+[Kavita] [2026-06-05 17:16:45.839 +09:00  37] [Information] Microsoft.Hosting.Lifetime Application is shutting down...
+[Kavita] [2026-06-05 17:16:57.111 +09:00  4] [Information] API.Program Running Manual Migrations
+[Kavita] [2026-06-05 17:16:57.917 +09:00  4] [Fatal] API.Program Running MigrateWantToReadExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:16:57.998 +09:00  4] [Information] API.Program Running Manual Migrations - complete
+[Kavita] [2026-06-05 17:16:59.517 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-05 17:16:59.534 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-05 17:16:59.835 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-05 17:16:59.850 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-05 17:16:59.894 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-05 17:16:59.990 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-05 17:17:00.104 +09:00  4] [Information] API.Program Running Migrations
+[Kavita] [2026-06-05 17:17:00.204 +09:00  4] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:17:00.205 +09:00  4] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:17:00.215 +09:00  4] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:17:00.291 +09:00  4] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:17:00.307 +09:00  4] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-05 17:17:00.322 +09:00  4] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:17:00.329 +09:00  4] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-05 17:17:00.708 +09:00  4] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-05 17:17:00.717 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-05 17:17:01.512 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-05 17:17:01.724 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-05 17:17:01.789 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-05 17:17:01.809 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-05 17:17:01.810 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-05 17:17:01.810 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-05 17:17:02.798 +09:00  12] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-05 17:17:13.518 +09:00  30] [Information] Microsoft.Hosting.Lifetime Application is shutting down...

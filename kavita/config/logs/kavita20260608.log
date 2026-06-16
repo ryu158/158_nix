@@ -1,0 +1,80 @@
+[Kavita] [2026-06-08 08:29:02.322 +09:00  6] [Information] API.Program Running Manual Migrations
+[Kavita] [2026-06-08 08:29:03.108 +09:00  6] [Fatal] API.Program Running MigrateWantToReadExport migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-08 08:29:03.138 +09:00  6] [Information] API.Program Running Manual Migrations - complete
+[Kavita] [2026-06-08 08:29:04.706 +09:00  1] [Information] API.Services.TaskScheduler Scheduling reoccurring tasks
+[Kavita] [2026-06-08 08:29:04.720 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Scan Library Task for daily
+[Kavita] [2026-06-08 08:29:05.013 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Backup Task for daily
+[Kavita] [2026-06-08 08:29:05.023 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling Cleanup Task for daily
+[Kavita] [2026-06-08 08:29:05.031 +09:00  1] [Information] API.Services.TaskScheduler Scheduling Auto-Update tasks
+[Kavita] [2026-06-08 08:29:05.132 +09:00  1] [Debug] API.Services.TaskScheduler Scheduling stat collection daily
+[Kavita] [2026-06-08 08:29:05.215 +09:00  6] [Information] API.Program Running Migrations
+[Kavita] [2026-06-08 08:29:05.315 +09:00  6] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-08 08:29:05.316 +09:00  6] [Fatal] API.Program Running MigrateUserLibrarySideNavStream migration - Completed. This is not an error
+[Kavita] [2026-06-08 08:29:05.326 +09:00  6] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-08 08:29:05.403 +09:00  6] [Fatal] API.Program Running MigrateLibrariesToHaveAllFileTypes migration - Completed. This is not an error
+[Kavita] [2026-06-08 08:29:05.417 +09:00  6] [Fatal] API.Program Running MigrateVolumeNumber migration - Please be patient, this may take some time. This is not an error
+[Kavita] [2026-06-08 08:29:05.428 +09:00  6] [Fatal] API.Program Running MigrateVolumeNumber migration - Completed. This is not an error
+[Kavita] [2026-06-08 08:29:05.434 +09:00  6] [Fatal] API.Program Running MigrateWantToReadImport migration - Completed. This is not an error
+[Kavita] [2026-06-08 08:29:05.835 +09:00  6] [Information] API.Program Running Migrations - complete
+[Kavita] [2026-06-08 08:29:05.897 +09:00  1] [Error]  There was an error setting base url
+System.IO.DirectoryNotFoundException: Could not find a part of the path '/home/opc/nix/kavita/wwwroot/index.html'.
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Boolean failForSymlink, Boolean& wasSymlink, Func`4 createOpenException)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at HtmlAgilityPack.HtmlDocument.Load(String path)
+   at API.Startup.UpdateBaseUrlInIndex(String baseUrl) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Startup.cs:line 448
+[Kavita] [2026-06-08 08:29:06.911 +09:00  1] [Information] API.Program Starting with base url as /
+[Kavita] [2026-06-08 08:29:07.213 +09:00  1] [Information] Microsoft.Hosting.Lifetime Now listening on: http://[::]:5000
+[Kavita] [2026-06-08 08:29:07.215 +09:00  1] [Information] API.Program Kavita - v0.8.4.0
+[Kavita] [2026-06-08 08:29:07.234 +09:00  1] [Information] Microsoft.Hosting.Lifetime Application started. Press Ctrl+C to shut down.
+[Kavita] [2026-06-08 08:29:07.235 +09:00  1] [Information] Microsoft.Hosting.Lifetime Hosting environment: Production
+[Kavita] [2026-06-08 08:29:07.235 +09:00  1] [Information] Microsoft.Hosting.Lifetime Content root path: /home/opc/nix/kavita
+[Kavita] [2026-06-08 08:29:08.118 +09:00  12] [Warning] API.Services.Tasks.VersionUpdaterService Server is out of date. Current: 0.8.4.0. Available: 0.9.0.2
+[Kavita] [2026-06-08 08:30:44.392 +09:00  30] [Error] API.Middleware.ExceptionMiddleware There was an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at API.Extensions.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions options) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Extensions\IdentityServiceExtensions.cs:line 54
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at API.Middleware.SecurityEventMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\SecurityMiddleware.cs:line 25
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\ExceptionMiddleware.cs:line 18
+[Kavita] [2026-06-08 08:30:44.498 +09:00  6] [Error] API.Middleware.ExceptionMiddleware There was an exception
+System.ArgumentNullException: Value cannot be null. (Parameter 's')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Text.Encoding.GetBytes(String s)
+   at API.Extensions.IdentityServiceExtensions.<>c__DisplayClass0_0.<AddIdentityServices>b__2(JwtBearerOptions options) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Extensions\IdentityServiceExtensions.cs:line 54
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.<>c.<Get>b__10_0(String name, IOptionsFactory`1 factory)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__DisplayClass3_1`1.<GetOrAdd>b__2()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+--- End of stack trace from previous location ---
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.ResponseCompression.ResponseCompressionMiddleware.InvokeCore(HttpContext context)
+   at API.Middleware.SecurityEventMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\SecurityMiddleware.cs:line 25
+   at API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\josep\Documents\Projects\KavitaOrg\Kavita\API\Middleware\ExceptionMiddleware.cs:line 18
+[Kavita] [2026-06-08 08:32:54.904 +09:00  36] [Information] Microsoft.Hosting.Lifetime Application is shutting down...
