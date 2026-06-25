@@ -50,9 +50,9 @@
 	 ps aux | grep syncthing
 
 
-	 cd /home/opc/nix/kavita/
-	 nix run .#kavita &
-	 ps aux | grep kavita
+	 # cd /home/opc/nix/kavita/
+	 # nix run .#kavita &
+	 # ps aux | grep kavita
 
 	 sudo ss -tlunp | grep -E 'nginx|silverbullet|syncthing|kavita'
 
